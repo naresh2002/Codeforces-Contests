@@ -1,7 +1,7 @@
 # Codeforces-Contests
 
 
-Contest folder name :
+Contest folder name : [FORMAT]
 	
 	[{Contest_ID}] " Codeforces Round " #{Contest_Number} ({Division})
 
