@@ -13,15 +13,15 @@ int32_t main () {
   while (t--) {
     int n, k;
     cin >> n >> k;
-    vector<int> ans;
+    vector<int> a;
     for (int i = k; i < n; i++) {
-      ans.PB(i + 1);
+      a.PB(i + 1);
     }
     for (int i = (k + 1) / 2; i < k; i++)  {
-      ans.PB(i);
+      a.PB(i);
     }
-    cout << ans.size() << endl;
-    for (auto x : ans) {
+    cout << a.size() << endl;
+    for (auto x : a) {
       cout << x << " ";
     }
     cout << endl;
